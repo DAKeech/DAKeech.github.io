@@ -10,7 +10,7 @@ function setup() {
 
 
 function draw() {
-  background(0,0,0,256);
+  background(0,0,0,64);
   rotator.update();
   if (mouseHandler.update()) {
     //print(mouseHandler.getLDragVector());
